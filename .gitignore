@@ -19,6 +19,8 @@ build/
 *.iml
 *.ipr
 out/
+gate-simulator/node_modules
+
 
 ### NetBeans ###
 /nbproject/private/

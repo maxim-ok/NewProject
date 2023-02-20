@@ -10,16 +10,9 @@ import java.sql.SQLException;
 
 public class SqlHelper {
 
-//    public static Connection getConnection() throws SQLException {
-//        final Connection connection = DriverManager.getConnection(
-//                "jdbc:mysql://localhost:3306/app", "app", "pass");
-//        return connection;
-//    }
-
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
                 System.getProperty("url"),
-//                System.getProperty("db.url"),
                 System.getProperty("db.login"),
                 System.getProperty("db.password")
         );

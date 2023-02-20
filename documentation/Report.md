@@ -54,14 +54,14 @@
 
 ### **Allure**
 
-![overview](../artifacts/overview.png)
+![overview](../artifacts/Overview.png)
 
 ![Suites](../artifacts/Suites.png)
 
 #### **Обнаруженные проблемы:**
-- [Оплата картой со статусом DECLINED одобряется банком](https://github.com/EvgeniaRepina/QADiploma/issues/2#issue-1145837968)
-- [Одобряется операция с невалидными символами в поле "Владелец"](https://github.com/EvgeniaRepina/QADiploma/issues/3#issue-1145899939)
-- [При отклонении операции покупки видны два уведомления: об успешности и об ошибке](https://github.com/EvgeniaRepina/QADiploma/issues/4#issue-1145961233)
+- [Оплата картой со статусом DECLINED одобряется банком](https://github.com/maxim-ok/NewProject/issues/1)
+- [Одобряется операция с невалидными символами в поле "Владелец"](https://github.com/maxim-ok/NewProject/issues/2)
+- [При отклонении операции покупки видны два уведомления: об успешности и об ошибке](https://github.com/maxim-ok/NewProject/issues/3)
 
 #### **Общие рекомендации:**
 Согласно списку проблем, необходимо обратить внимание на модули работы с БД (проверку статуса карты), валидацию поля 
