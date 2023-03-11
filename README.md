@@ -59,7 +59,7 @@
 1. Установить:
 * [Docker Desktop](https://www.docker.com/products/docker-desktop)
 * [IntelliJ IDEA](https://www.jetbrains.com/idea)
-2. Скачать [проект](https://github.com/EvgeniaRepina/QADiploma.git), открыть его в IDEA
+2. Скачать [проект](https://github.com/maxim-ok/NewProject), открыть его в IDEA
 3. Запустить Docker
 4. Скачать 3 контейнера в терминале:
 * docker image pull mysql:latest
